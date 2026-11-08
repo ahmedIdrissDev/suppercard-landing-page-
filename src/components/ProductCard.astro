@@ -1,0 +1,6 @@
+---
+import frontCard from '../assets/suppercard front .png';
+import backCard from '../assets/suppercard back.png';
+const { class: className = '', side = 'front' } = Astro.props;
+---
+<div class={`product-card ${className}`} aria-label={`Black Suppercard ${side} artwork`}><img class="card-art" src={side === 'back' ? backCard.src : frontCard.src} alt={`Suppercard ${side}`} /></div>

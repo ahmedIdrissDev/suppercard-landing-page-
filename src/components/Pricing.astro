@@ -1,0 +1,7 @@
+---
+import { whatsappUrl } from '../lib/config';
+import Icon from './Icon.astro';
+import WhatsAppIcon from './WhatsAppIcon.astro';
+const included = ['Physical NFC business card','Personalized digital profile','Access to the Suppercard application','Edit contact information anytime','Customize your profile theme','Add social media and business links','Share your profile with NFC'];
+---
+<section class="pricing section-pad" id="price"><div class="section-intro reveal"><p class="eyebrow">The price</p><h2>One card.<br /><em>One simple price.</em></h2></div><div class="price-card reveal"><div class="price-header"><div><p class="eyebrow">Suppercard</p><p class="price">230 <span>DH</span></p><p class="muted">One-time payment. No subscription.</p></div><span class="price-tag">made for morocco</span></div><div class="price-divider"></div><div class="price-body"><p class="eyebrow">Included</p><ul>{included.map((item) => <li><Icon name="check" size={16} />{item}</li>)}</ul></div><a class="button button-dark price-button" href={whatsappUrl} target="_blank" rel="noreferrer"><WhatsAppIcon size={17} />Get your Suppercard <Icon name="arrow" /></a></div></section>

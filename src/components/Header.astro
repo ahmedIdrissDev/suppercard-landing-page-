@@ -1,0 +1,5 @@
+---
+import Icon from './Icon.astro';
+import { whatsappUrl } from '../lib/config';
+---
+<header class="site-header"><a class="wordmark" href="#top" aria-label="Suppercard home">supper<span>card</span><i>.</i></a><nav class="desktop-nav" aria-label="Main navigation"><a href="#card">The card</a><a href="#price">Pricing</a><a href="#about">About</a></nav><a class="header-cta" href={whatsappUrl} target="_blank" rel="noreferrer">Order your card <Icon name="arrow" size={15} /></a><button class="mobile-menu" aria-label="Open navigation"><Icon name="menu" size={22} /></button></header>

@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+import WhatsAppIcon from './WhatsAppIcon.astro';
+import { whatsappUrl } from '../lib/config';
+---
+<footer class="site-footer"><div class="footer-top"><a class="wordmark" href="#top">supper<span>card</span><i>.</i></a><p>One card. Every connection.<br />A smarter way to network.</p><a class="footer-contact" href={whatsappUrl} target="_blank" rel="noreferrer"><WhatsAppIcon size={17} /> WhatsApp us <Icon name="arrow" size={15} /></a></div><div class="footer-bottom"><span>© {new Date().getFullYear()} Suppercard</span><span>Made for better connections</span></div></footer>
