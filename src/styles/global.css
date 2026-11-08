@@ -16,6 +16,6 @@
 em{color:#93c5fd}
 .feature-number{display:none}
 .button{background:#2563eb;color:#fff;border-top:2px solid rgba(255,255,255,.3);border-radius:.375rem}.button:hover{background:#1d4ed8}.button-light{background:#fff;color:#111;border:1px solid #e5e5e5}.button-light:hover{background:#f9fafb}
-.text-link{padding:1rem 1.15rem;border:1px solid #e5e5e5;border-radius:.375rem}
+.text-link{padding:1rem 1.15rem;border:1px solid #e5e5e5;border-radius:.375rem;background:#fff;cursor:pointer}
 
 @media(max-width:480px){.hero-actions .button,.hero-actions .text-link,.cta-inner .button{width:100%}}
